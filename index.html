@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="shortcut icon" href="/bmi.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="bmi-header-container">
+      <nav class="bmi-header">
+        <div class="bmi-logo-name">
+          <img
+            src="/bmi_white.svg"
+            alt="BMI Calculator icon"
+            class="bmi-logo"
+          />
+          <div class="bmi-name">BMI Calculator</div>
+        </div>
+        <div class="user-info">
+          <button class="bmi-button sign-in">Sign In</button>
+          <button class="bmi-button sign-up">Sign Up</button>
+        </div>
+      </nav>
+    </header>
+    <main class="bmi-main">
+      <div class="small-hero">
+        <h1 class="small-hero-title">Calculate Your BMI</h1>
+        <p class="small-hero-content">
+          &gt;&gt; &nbsp; Know & Keep Your BMI in Check &#128521; &nbsp;&lt;&lt;
+        </p>
+      </div>
+      <div class="bmi-calculator-container">
+        <div class="test-100vh">
+          <div class="bmi-calculator">
+            <div class="age-gender-container">
+              <div class="age">
+                <label for="age" class="age-label">Age (2-100yrs):</label>
+                <input type="number" id="age" class="age-input" autofocus />
+              </div>
+              <div class="gender">
+                <label for="gender" class="gender-label">Gender:</label>
+                <select name="gender" id="gender" class="gender-input">
+                  <option value="">Select</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+            <div class="bmi-input-container">
+              <div class="weight">
+                <label for="weight" class="weight-label">Weight (kg):</label>
+                <input
+                  type="number"
+                  id="weight"
+                  class="weight-input"
+                  autofocus
+                />
+              </div>
+              <div class="height">
+                <label for="height" class="height-label">Height (cm):</label>
+                <input type="number" id="height" class="height-input" />
+              </div>
+            </div>
+          </div>
+          <div class="bmi-calc-buttons">
+            <button class="bmi-button calculate">Calculate</button>
+            <button class="bmi-button clear">Clear</button>
+          </div>
+        </div>
+        <div class="bmi-result-interpretation">
+          <div class="result">Your BMI is:</div>
+          <div class="result-value">--</div>
+          <div class="result-class">Overweight</div>
+        </div>
+        <div class="interpretation-container">
+          <div class="interpretation">Interpretation of the Result</div>
+          <div class="message"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="bmi-footer">
+      &copy; 2026 BMI Calculator. All rights reserved.
+    </footer>
+  </body>
+</html>

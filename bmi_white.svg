@@ -1,0 +1,5 @@
+<svg id="bmi" width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <rect x="5.9883" y="5.8947" width="36.117" height="36.117" ry="8.1404" fill="#fff"/>
+ <text transform="scale(.95078 1.0518)" x="9.940938" y="27.125307" fill="#000000" font-family="'lemon days'" font-size="18.184px" letter-spacing=".33056px" stroke-width="2.273" word-spacing="0px" xml:space="preserve"><tspan x="9.940938" y="27.125307" fill="#000000" letter-spacing=".33056px" stroke-width="2.273" word-spacing="0px">BMI</tspan></text>
+ <text transform="scale(1.0656 .9384)" x="10.495033" y="36.697781" fill="#000000" font-family="'lemon days'" font-size="3.5057px" letter-spacing=".39439px" stroke-width=".43822" word-spacing="0px" xml:space="preserve"><tspan x="10.495033" y="36.697781" fill="#000000" letter-spacing=".39439px" stroke-width=".43822" word-spacing="0px">calculator</tspan></text>
+</svg>
